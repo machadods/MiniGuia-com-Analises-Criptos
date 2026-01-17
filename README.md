@@ -1,23 +1,96 @@
-📊 MiniGuia de Análise de Criptomoedas — Usando Colab + Análise Descritiva e Preditiva de Criptos
+📊MiniGuia de Análise de Criptomoedas
 
-Este repositório contém um notebook completo em Python/Google Colab para coletar, analisar, visualizar e gerar relatórios de criptomoedas, combinando análise descritiva, visual e preditiva. Ele também inclui um mecanismo de leitura de PDFs sobre criptomoedas para gerar resumos, glossários, perguntas de revisão e áudios automaticamente.
+Google Colab · PDFs · IA · Áudio · Relatórios
 
+Este repositório contém um notebook em Python executado no Google Colab para estudo estruturado de criptomoedas, combinando:
+
+leitura e análise crítica de PDFs
+
+uso de IA como assistente de interpretação
+
+geração de slides, áudios e relatório final
+
+O foco é aprendizado, análise conceitual e organização do conhecimento, não investimento.
 
 🧠 O que este projeto faz
 
-Este notebook faz três grandes coisas:
+O notebook executa três funções principais:
 
 🔹 1. Análise de PDFs sobre criptomoedas
 
-Conecta ao Google Drive para acessar PDFs didáticos.
+Conecta ao Google Drive para acessar livros e materiais em PDF
 
-Lê texto dos documentos com pdfplumber.
+Extrai texto dos documentos com pdfplumber
 
-Gera automaticamente resumos, glossários, perguntas de revisão.
+Exibe trechos selecionados para análise
 
-Gera prompts para slides a partir dos resumos.
+Guia a leitura por perguntas estruturadas:
 
-Converte os resumos em áudios narrados (usando edge-tts).
+tese central
+
+tipo de texto (introdutório, técnico ou ideológico)
+
+premissas implícitas
+
+o que está obsoleto em 2026
+
+o que permanece válido em 2026
+
+As respostas ficam organizadas em um dicionário único (respostas).
+
+🔹 2. Consolidação do conhecimento com IA
+
+A IA integrada ao Colab é usada apenas como assistente, com base nos trechos exibidos
+
+Gera:
+
+resumos didáticos
+
+glossários
+
+prompts prontos para slides educacionais
+
+⚠️ A IA não inventa conteúdo externo e não substitui leitura crítica.
+
+🔹 3. Geração de artefatos finais
+
+A partir das respostas consolidadas, o notebook gera automaticamente:
+
+📊 Prompts de slides para apresentações
+
+🎧 Áudios narrados com perguntas e respostas (Q&A)
+
+📄 PDF final estruturado, contendo toda a análise por documento
+
+Esses materiais podem ser usados para estudo, aulas ou revisão.
+
+⚙️ Tecnologias utilizadas
+
+Python
+
+Google Colab
+
+pdfplumber
+
+gTTS (Text-to-Speech)
+
+reportlab (geração de PDF)
+
+pandas / numpy / matplotlib (base analítica)
+
+⚠️ Limitações explícitas
+
+Não faz recomendações de investimento
+
+Não prevê preços automaticamente
+
+A qualidade da análise depende do conteúdo dos PDFs
+
+Textos ideológicos exigem leitura crítica humana
+
+🎯 Objetivo do projeto
+
+Transformar leitura passiva de PDFs em compreensão ativa e estruturada, usando IA como ferramenta — não como autoridade.
 
 📈 2. Coleta de dados de mercado cripto
 
