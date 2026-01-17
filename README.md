@@ -2,8 +2,6 @@
 
 Este repositório contém um notebook completo em Python/Google Colab para coletar, analisar, visualizar e gerar relatórios de criptomoedas, combinando análise descritiva, visual e preditiva. Ele também inclui um mecanismo de leitura de PDFs sobre criptomoedas para gerar resumos, glossários, perguntas de revisão e áudios automaticamente.
 
-➡️ Versão no Colab:
-https://colab.research.google.com/drive/1X7hP890J5YbzyB0R5jesX3lLfTiLc3z-?usp=sharing
 
 🧠 O que este projeto faz
 
